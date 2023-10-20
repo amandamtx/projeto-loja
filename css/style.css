@@ -1,6 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 body{
     font-family:'Roboto Slab', serif;
     font-size: 14pt;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 
 header{
@@ -8,9 +20,40 @@ header{
     opacity: 0.9;
     color: #eee;
     text-align: center;
+    padding-top: 5px;
+    padding-bottom: 20px;
 }
 
 header nav a{ 
     text-decoration: none;
     color: rgb(137, 125, 112);
+    padding: 10px;
+}
+
+header nav a:hover{
+    border-bottom: solid 3px rgba(231, 184, 81, 0.6);
+    color: #eee;
+    
+}
+
+.right {
+    text-align: right;
+}
+
+.flex-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.white{
+    color: #eee;
+}
+
+.social-icons{
+    padding-right: 20px;
+
+}
+.social-icons img{
+    padding: 0 5px;
 }
