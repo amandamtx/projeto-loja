@@ -16,7 +16,7 @@ a{
 }
 
 header{
-    background-color: #23160c;
+    background-color: #35241d;
     opacity: 0.9;
     color: #eee;
     text-align: center;
@@ -56,4 +56,22 @@ header nav a:hover{
 }
 .social-icons img{
     padding: 0 5px;
+}
+
+.carousel-item{
+    background-color: #805d65;
+    height: 400px;
+    padding-top: 140px;
+}
+
+.carousel-item .carousel-item-text{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.carousel-indicators[data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
 }
