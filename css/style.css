@@ -75,3 +75,25 @@ header nav a:hover{
     height: 10px;
     border-radius: 50%;
 }
+
+.cursiva{
+    font-family: 'Great Vibes', cursive;
+    text-decoration: none;
+    color: #fba700;
+    font-size: 30px;
+}
+
+.titulo{
+    font-family: 'Arvo', serif;
+    font-size: 42px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 63px;
+    letter-spacing: 5px;
+
+}
+.panificadoras {
+    font-size: 23px;
+    font-family: 'Roboto Serif', serif;
+
+}
