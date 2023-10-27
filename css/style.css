@@ -97,3 +97,24 @@ header nav a:hover{
     font-family: 'Roboto Serif', serif;
 
 }
+
+@media (max-width:980px) {
+    .logo{
+        display: none;
+    }
+    .flex-nav{
+        flex-direction: column;
+       
+    }
+
+    .flex-nav a{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.navbar-toggler-icon{
+    background-image: url(/img/icons/bars-solid.svg);
+   border: #483933;
+}
+
